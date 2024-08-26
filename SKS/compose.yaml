@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  my_service:
+    container_name: sks-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "90:90" # Example port mapping, adjust as needed
