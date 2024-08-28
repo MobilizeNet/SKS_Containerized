@@ -19,7 +19,7 @@ Once you have the prerequisites installed, follow these steps to run the Docker 
 3. Run the following command to start the containers defined in the Docker Compose file:
 
     ```
-    docker-compose up --build
+    docker compose up --build
     ```
 
     This command will build and start the containers specified in the Compose file. If the containers are already built, it will start them without rebuilding.
@@ -32,7 +32,7 @@ Once you have the prerequisites installed, follow these steps to run the Docker 
     localhost:90
     ```
 You will see something like that:
-    ![SKS running on localhost]("SKS/images/sks-image.png")
+    ![SKS running on localhost](https://raw.githubusercontent.com/MobilizeNet/SKS_Containerized/master/SKS/images/sks-image.png)
 
 That's it! You have successfully run the Docker Compose file and started the associated containers. Remember to stop the containers when you are done using the following command:
 
